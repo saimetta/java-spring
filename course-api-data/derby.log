@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jun 22 15:42:10 ART 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-016b-807e-ebfb-000009f98bd0 
+on database directory memory:/Users/saimetta/workspace/JavaSpring/course-api-data/testdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
+Loaded from file:/Users/saimetta/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=/Users/saimetta/workspace/JavaSpring/course-api-data
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
