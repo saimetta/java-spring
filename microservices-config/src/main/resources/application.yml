@@ -1,0 +1,33 @@
+server.port: 8889
+my: 
+    greeting: Hello
+    keyvaluespairs: "{name: 'Santiago',age: 34}"
+    list: 
+         values: One,Two,Three
+         
+app:
+    name: My app
+    description: Welcome to ${app.name}
+
+db: 
+    connection: "{connectionString: 'http://db', userName: 'foo', password: 'baar'}"
+    host: 127.0.0.1
+    port: 999
+
+management.endpoints.web.exposure.include: "*"
+
+spring:
+  application:
+    name: microservices-config
+  cloud:
+    config:
+      uri:
+      - "http://localhost:8888"
+      
+
+      
+#When running the jar you can set this property (java -jar jarname.jar --spring.profiles-active=test
+#spring:
+#  profiles:
+#    active:
+#    - test

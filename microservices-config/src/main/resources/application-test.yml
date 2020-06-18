@@ -1,0 +1,16 @@
+server.port: 8888
+my: 
+    greeting: Hello Test
+    keyvaluespairs: "{name: 'Santiago',age: 34}"
+    list: 
+         values: One,Two,Three
+app:
+    name: My app (Test)
+    description: Welcome to ${app.name}
+
+db: 
+    connection: "{connectionString: 'http://db-test', userName: 'foo', password: 'baar'}"
+    host: 127.0.0.1
+    port: 999
+
+management.endpoints.web.exposure.include: "*"
